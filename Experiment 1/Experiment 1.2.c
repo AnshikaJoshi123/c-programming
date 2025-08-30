@@ -4,6 +4,7 @@ Write a C Program to print the address in multiple lines (new line)"*/
 #include<conio.h>
  int main() {///normally we use int or void
    
+    printf("Name-Anshika joshi\nSap id-590028351\nBatch-B1\nCourse-Bsc-cs\n");
     printf("*\n");
     printf("*\n");
     printf("*\n");
