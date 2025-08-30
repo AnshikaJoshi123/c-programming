@@ -5,6 +5,7 @@
  {
  	int a,b;// declaration
  	int s,c,k,j;
+  printf("Name-Anshika joshi\nSap id-590028351\nBatch-B1\nCourse-Bsc-cs\n");
  	printf("Enter the value of a:");
  	scanf("%d",&a);
  	printf("Enter the value of b:");
