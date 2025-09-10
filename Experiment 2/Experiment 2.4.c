@@ -1,0 +1,29 @@
+/*Experiment 2:oparetors
+4.Write a program to find the roots of the quadratic equations.*/
+#include<stdio.h>
+#include <math.h>
+int main(){
+ printf("Name - Anshika Joshi \nSap Id - 590028351\nCourse - Bsc Computer Science\nBatch - B1");
+    printf("\n--------------------------------\n");
+    double a,b,c,x1,x2;
+    printf("Enter the values of a,b,c = ");
+    scanf("%lf%lf%lf",&a,&b,&c);
+    double D = (b*b)-(4*a*c);
+    double S = sqrt(D);
+    if ( D > 0)
+{  x1=(-b+S)/(2*a);
+         x2=(-b-S)/(2*a);
+         printf("Two distinct real roots are %lf and %lf\n", x1,x2);
+}
+    else if (D == 0) 
+{  x1 = x2 = -b / (2 * a);
+        printf("Two equal real roots are %lf and %lf\n",x1,x2);
+}
+        else 
+{ double rp = -b / (2 * a);
+        double ip = sqrt(-D) / (2 * a);
+        printf("Two complex roots are %lf + %lfi and %lf - %lfi\n", rp, ip, rp, ip);
+}
+ printf("\n--------------------------------\n")
+    return 0;
+}
