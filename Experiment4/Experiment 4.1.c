@@ -1,3 +1,5 @@
+/*Experiment 3: Conditional Statements
+3. WAP to check if three points (x1,y1), (x2,y2) and (x3,y3) are collinear or not.*/
 #include <stdio.h>
 int main()
  {
